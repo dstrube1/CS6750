@@ -1,0 +1,38 @@
+For the purpose of the evaluation of this prototype, please imagine you are using the dive tending UI on a mobile phone. See the linked screenshots of how this UI looks on an Android Moto X4 for example. 
+https://drive.google.com/file/d/1wTxmQzRSWXHGNBZHPPme7Gp18OC9inrP/view?usp=sharing
+
+I have viewed the screenshot of the current UI and I can imagining using it on a mobile phone.
+
+Now imagine you are presented with the option of using this UI with the following prototype instead. 
+https://drive.google.com/file/d/1Xwd5kvQYHPVqpQy3r7UKh9VxxGjFXoVr/view?usp=sharing
+
+I have viewed the wireframe prototype UI
+
+
+The three horizontal bars in the top left (the "hamburger" icon) functions the same way as it does in the current UI. The fields like "[    Dive site    ]", "[    Date    ]", and "[    Name    ]" are filled in from a previous screen or by selecting divers. Dive type is only selected one time (as most dives aren't a mix of SCUBA and Surface Supply). A new diver is added by clicking the + icon and removed by clicking the - icon. Likewise, a tank is added by clicking its + icon and removed by clicking its - icon. Selecting a diver populates the fields tied to that diver, same as it does in the current UI. The Complete button has been moved to the bottom and a Cancel button has been added. 
+
+I understand;I don't understand
+
+Overall, how would you feel about using this UI instead of the current one?
+Highly dissatisfied;Dissatisfied;Neutral;Satisfied;Highly satisfied
+
+How would you feel selecting Dive type separately from Add diver?
+Highly dissatisfied;Dissatisfied;Neutral;Satisfied;Highly satisfied
+
+How would you feel about the modified process of adding a diver?
+Highly dissatisfied;Dissatisfied;Neutral;Satisfied;Highly satisfied
+
+How would you feel about the placement of Start PSI and End PSI?
+Highly dissatisfied;Dissatisfied;Neutral;Satisfied;Highly satisfied
+
+How would you feel about the placement of Time In and Time Out?
+Highly dissatisfied;Dissatisfied;Neutral;Satisfied;Highly satisfied
+
+How would you feel about the placement of the Complete button?
+Highly dissatisfied;Dissatisfied;Neutral;Satisfied;Highly satisfied
+
+How would you feel about the addition of a Cancel button?
+Highly dissatisfied;Dissatisfied;Neutral;Satisfied;Highly satisfied
+
+Do you have any other thoughts or concerns you'd like to share?
+

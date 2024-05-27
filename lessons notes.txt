@@ -1,0 +1,438 @@
+1.2:
+goals: to understand:
+1- common principles in HCI:
+	
+2- design life cycle:
+	conception, prototype, evaluation
+	iterations
+
+3- current applications of HCI
+
+learning outcome:
+design effective interactions b/n humans and computers
+(interactions, not interfaces)
+
+design	: apply known principles to a new problem
+		: iterative process of needfinding, prototyping, and revising
+
+1.3:
+VR
+AR
+IoT / wearables
+robots - speech , ethics
+mobile
+context
+gestures
+touchscreens
+info visualization
+mental model / representations
+cscw: computer supported cooperative work - e.g., working remotely - same or diff time & place
+social computing
+special needs
+education
+healthcare
+security
+games
+pick a topic to focus on: special needs
+
+2.1:
+how we focus on a task (not tools and interfaces)
+role of the interface in mediating b/n users and tasks
+role of user: processor, predictor, participant
+UX @ multiple levels
+
+2.2:
+Ubiquity of feedback cycles
+gulf of execution: distance b/n user goals and the action required to realize those goals
+	how do i know what i can do
+	what's the diff b/n what the user thinks they have to do, and what they actually have to do
+	user must:
+	1- ID intentions
+	2- ID actions
+	3- execute in interface
+gulf of evaluation: distance b/n fx of actions and the user's understanding of the results
+	task must have:
+	1- interface output
+	2- interpretability
+	3- evaluation
+7 ?s for designing feedback cycles:
+	1- how easily can one determine the function of the device? (goal)
+	2- how easily can one tell what actions are possible? (plan)
+	3- how easily can one determine the mapping from intent to movement? (specify)
+	4- how easily can one actually perform the physical movement? (perform)
+	5- how easily can one tell what state the system is in? (perceive)
+	6- how easily can one tell if the system is in the desired state? (interpret)
+	7- how easily can one determine the mapping from state to interpretation? (compare)
+	alternatively:
+	1- what do i want to do?
+	2- what are the alternatives?
+	3- what can i do?
+	4- how do i do it?
+	5- what happened?
+	6- what does it mean?
+	7- is this okay?
+
+Lesson 3.1
+6 Principles of User-centered design:
+1- The design is based upon an explicit understanding of users, tasks, and environments
+2- Users are involved throughout design and development
+3- The design is driven and refined by user-centered evaluation
+4- The process is iterative
+5- The design addresses the whole user experience
+6- The design team includes multidisciplinary skills and perspectives
+Stakeholders: primary (user), secondary (those affected by primaries), tertiary (...)
+Design life cycle:
+1- Needfinding (interviews, surveys, naturalistic observation)
+2- Design alternatives (brainstorming, personas, storyboards)
+3- Prototyping (paper prototypes, wireframing, wizard of oz?)
+4- Evaluation (qualitative, empirical, predictive)
+[see screenshots for the rest]
+
+CITI:
+The Belmont report's 3 principles:
+	1. Respect for Persons
+	2. Beneficence
+	3. Justice
+History of Ethical Regulations
+	Nuremberg Code
+	Declaration of Helsinki
+	Belmont Report
+	Common Rule
+[see CITI assignment page for more info:
+http://omscs6750.gatech.edu/summer-2021/citi-training/
+]
+
+3.2:
+Getting started with IRB:
+https://edstem.org/us/courses/5912/lessons/14029/slides/70663
+
+3.3:
+Who are the users?
+Where are the users? (environment / context)
+What is the context of the task?
+What are their goals?
+What do they need? (objects, information, collaborators)
+What are their tasks? (where and why is this needed?)
+What are the subtasks?
+what are their challenges?
+How will I avoid biases: https://edstem.org/us/courses/5912/lessons/14030/slides/70679
+	confirmation bias
+	observer bias
+	social desirability bias
+	voluntary response bias
+	recall bias
+Don't overrepresent my experience as a participant observer
+Maybe focus group?
+?s:
+How do you feel about tending
+How often do you tend
+What do you like about the tending UI
+What do you dislike about it
+post event protocol
+Representing the need:
+https://edstem.org/us/courses/5912/lessons/14030/slides/70706
+Requirements:
+https://edstem.org/us/courses/5912/lessons/14030/slides/70707
+	Functionality: what the UI can do
+	Usability: how certain interactions must work
+	Learnability: how fast the user can start to use the interface
+	Accessibility: who can use the interface
+	Compatibility: what devices it can run on
+	Compliance: how the UI protects privacy
+	Cost: 
+
+2.3:
+2 aspects of directness:
+1- Distance: distance b/n user's goals and the system itself (gulfs of execution / evaluation)
+	semantic distance: diff b/n user goals and their expression in the system; how hard it is to know what to do; this is the "identifying intentions" and "identifying actions" part of gulf of execution
+	articulatory distance: diff b/n that expression and its execution; how hard it is to do what you know to do; "execution actions" part of gulf of execution
+2- direct engagement: qualitative feeling that one is directly engaged with control of the objects, not with the program; e.g., dragging files
+
+2.4:
+3 types of memory: perceptual store, short term, long term
+Perceptual store: visuospatial sketchpad (where you see things you imagine), phonological loop ("the bow speaks for itself"), episodic buffer (coordinating previous things and putting them in place), central executive 
+easier to recognize something you know than it is to recollect something new ("recall it independently")
+minimize memory load on users: easier to recognize than to recall
+subconscious procedural -> conscious declaritive: hard to explain how to do something I'm good at
+we're prone to design things that are easy for us to use but hard for anyone else.
+distributed cognition: offloading cognitive load; e.g., IDE with syntax checking so the programmer doesn't have to worry about that
+
+Levels of Directness:
+	how far is your interaction from the object of the interaction? 
+	To what extent are you directly manipulating the object rather than manipulating it at a distance through the interface? 
+Invisibility of the Interactions:
+	how much time did you spend thinking about the interface rather than the task? 
+	If you focus mostly on the task, did the interface become invisible through learning or through good design? 
+	Was there a time when you thought more about the interface than you did now?
+
+3.4:
+biggest mistake: skipping needfinding; 2nd biggest: not enough design alternatives
+when brainstorming, distance yourself from existing designs
+be silly, design for animals, kids, aliens; go nuts
+challenges in group brainstorming:
+	social loafing
+	conformity
+	production blocking: some indvs in discussion blocking others' participation by volume (talking too much)
+	performance matching: matching one's performance to others' = loss of momentum
+	power dynamics: defer to senior indvs, overpower less sr indvs
+4 rules for group brainstorming:
+	1: expressiveness: *any* idea is allowed
+	2: nonevaluation
+	3: quantity
+	4: building
+4 more:
+	1: stay focused
+	2: no explaining ideas
+	3: revisit the problem often
+	4: encourage others
+create 3 or 4 imaginary personas to represent different users
+user profile: what types of users do we want to design for?
+timeline: stretch out a persona over time, general steps of a task
+scenarios / storyboard: specific kinds of events we want to handle, particular person acting in a particular way with particular events coming up
+15. User Modeling screenshot: 
+	left: cognitive task analysis
+	right: human information processor model
+GOMS model: Goals, Operators, Methods, Selection Rules
+personas: includes user's context
+scenarios: includes task context, captures activity over time, attempts to capture potential edge cases
+user profiles: includes user's context, delineates the target audience
+timelines: captures activity over time
+user modeling: targets general workflows, captures activity over time
+
+2.5:
+Don Norman's 6 principles
++Constantine's & Lockwood's 6 principles
++Jakob Nieslen's 10 heuristics
++Ronald Mace's 7 principles of universal design
+=Overlap:
+	1: Discoverability: is it possible to figure out what to do (visibility) - vs simplicity
+	2: Simplicity: dialogs should not have irrelevant or rarely needed info 
+	3: Affordances: design of a thing hints at how it's to be used; buttons meant to be pressed, handles meant to be pulled, knobs meant to be turned
+Affordance: inherent properties of a device
+Perceived Affordance: a property attributed to the object by the observer; ex: pushability of a door handle- relies on someone to do the pushing; can be inaccurate, e.g., pushable handles that look like they're supposed to be pulled- in conflict with actual affordance
+Signifier: anything that helps the perceived affordance match the actual affordance (e.g., "push" sign on door)
+	4: Mapping: b/n interface and effects; similar to affordance, but mapping deals with effects, affordance deals with how to use interface
+	5: Perceptibility: ability to perceive state of system (similar to feedback) - ex of bad: ceiling fan chains
+	6: Consistency: if a new way is only slightly better, better to be consistent (reuse) - there will be conflicting conventions
+	7: Flexibility: more than 1 way to do things - vs equity
+	8: Equity: allow all users to have the same experience; discoverable for novices and efficient for experts
+	9: Ease: similar to comfort; minimum fatigue
+	10: Comfort: appropriate size & space for approach, reach, and manipulation and use, regardless of body size, posture, or mobility
+	11: Structure: put related things together, keep unrelated things apart
+	12: Constraints: limiting user to only correct actions; soft: allow action but let user know it's wrong (error the disables save); hard: don't allow the action (can't paste in invalid chars); physical, cultural, semantic, logical
+	13: Tolerance: emergency exit to leave an unwanted state; undo and redo (recoverability)
+	14: Feedback: must be immediate, informative, not distracting and not anxiety-inducing, unlike old BSOD
+	15: Documentation: better to not need it, but you need it; focus on tasks
+
+2.6:
+Mental model: internal, simulatable understanding of external reality; should match the way things are
+	1- design systems that act the way the user expects them to act
+	2- design systems that teach the user how they react
+	5 tips: https://edstem.org/us/courses/5912/lessons/14035/slides/70819
+	^ lots of nuance
+Representation: visualization should map to reality
+Metaphors & Analogies: comparisons make it easy to explain and learn things
+	downsides: users may not know where the analogy ends
+		may restrict the interface to outdated constraints
+	consistency is important for M&A
+	"interface should teach the user how the system works": affordances
+	mapping: representations map the interface to the task; good representation makes it easy to predict outcomes of actions
+Learning Curve: steep = expectation of high expertise in short time; rapid = high expertise will little experience; difficult interface = slow LC, more experience required for expertise
+Slips: right mental model but wrong action; stressed or distracted
+	action based: accidentally do the wrong thing
+	memory lapse: forgot to do the right thing
+Mistakes: wrong mental model, user doesn't even know the right thing to do
+	rule-based: wrong decision based on right info (I want to save, click yes when No was the right button)
+	knowledge-based: incorrectly assessed state of the world (I didn't think I made any changes)
+	memory lapse: forgot to fully execute plan (shutdown computer or application without saving)
+Learned Helplessness: learned sense that I am helpless to accomplish my goals in an interface
+Expert Blind Spot: as an expert, I don't know what others don't know; I am not my user
+
+xxx <- xs can't out number os unless they are no os on that side; moves must alternate
+ooo
+
+R move: xo; L state: xxoo; Rs: xo
+Lm: o; Ls: xxooo; Rs: x
+Rm: xx; Ls: ooo;
+
+3.5:
+Prototyping: build things that we can put in front of users; not the entire UI
+low fidelity: can be assembled and revised quickly, used to evaluate function & intuitiveness of UI 
+high fidelity: wire frames (eval readability of UI) or rough drafts; later hi fi evals performance of UI
+Timeline: early (low fi, explore ideas), late (finishing touches, test ideas)
+representations: (easiest to hardest): verbal, paper, wizard of oz, wireframes, physical, functional, live
+early -> late: representations, fidelity, evaluation, scope
+scope: Horizontal or Vertical?
+Horizontal: cover design as a whole, shallow
+Vertical: small portion of interaction and prototype in great detail
+iterative or evolutionary?
+executable?
+tradeoffs: low fi (easy but not detailed), hi fi (detailed but hard)
+design for feedback, early and often
+verbal: use analogies and metaphors
+paper: draw what the UI looks like, get feedback from someone looking at it; 
+	card prototyping: paper with multiple screens being drawn and shown
+Wizard of Oz: user interact authentically with system while human supplies functionality that hasn't yet been implemented
+Wireframe: mockup of UI; Powerpoint, Google Drawings, (paid options:) balsamiq, axure, visio, Adobe InDesign, (free:) pencil project, frame box
+Physical: ex: use a key fob and imagine it's your UI
+"prototyping look and feel" is the inverse of "disguise superficial details"
+look and feel: superficial elements that have a significant user impact but are easily modifiable
+prototyping can exist at multiple simultaneous levels of fidelity
+
+=============================================================================
+
+2.7:
+task analysis
+human information processor models
+	GOMS: input from user and output to user
+	processor model
+cognitive task analysis: inside users head instead of focusing on the task
+	predictor model; 
+	memory, attention, cognitive load
+GOMS model: Goals, Operators / actions that the user can perform, Methods that user can use to achieve goals, Selection Rules user uses to choose among competing methods 
+GOMS weakness:
+	doesn't address complexity 
+	assumes user is expert
+GOMS strengths: 
+	formalizes user interaction
+KLM: Keystroke Level Model
+CMN: Card, Moran, Newell - submethods and conditions in a strict goal hierarchy, high granularity, low level goals; modeling how long each interaction takes & looking for inefficiencies
+NGOMSL: Natural GOMS Language - targets where memory is overtaxed
+behaviorism: emphasizes behavior as a product of stimuli and environment
+cognitivism: emphasizes internal thought process 
+cognitive task analysis: 
+	emphasizes mental processes
+	formal enough for interface design
+weakness:
+	time intensive
+	may deemphasize context
+	ill-suited to novices; not good while trying to learn interface
+human information processor models:
+	KLM
+	TLM: touch level model
+	MHP: model human processor
+	CPM: (parallel tasks?)
+cognitive models
+	CDM: Critical decision method - focuses where critical decisions occur
+	TKS: Task-Knowledge Structures - nature of human knowledge
+	CFM: Cognitive Function Model - focuses on complexity
+	Applied CTA: cognitive task analyses
+	Skill-Based CTA
+	productive systems: AI; rules for user to follow
+
+2.8:
+4 models of context:
+	1- distributed cognition: brain < brain + pen & paper
+		-a cockpit remembers its speeds
+	2- social cognition: distributing tasks among people
+	3- situated action: focuses on humans as improvisers
+		-must examine interfaces we design in the context where they're used
+		-must understand the task the user does *grows* out of interaction with the UI
+		-task doesn't exist until user gets started; user defines the task
+		-being in the context of a task makes it easier to remember what needs to be done
+		-suchman view 1: organization and significance of action are derived from plans
+		-suchman view 2: plans are derived from situated actions
+	4- activity theory: 
+		-why does user do something via interface? why this interface and not some other? because they want to or because they have to? 
+		-low level operations from high level actions
+		-user can move up and down activity-action-operator hierarchy; when i learn, a conscious action becomes an unconscious operator
+		-nardi: AT: set of perspectives on human activity and set of concepts for describing that activity
+differences between 3: https://edstem.org/us/courses/5912/lessons/14038/slides/70908
+
+3.6:
+evaluation
+qualitative eval: what they like or don't, is it readable, understandable; later: usable, efficient, intuitive, easy to learn? what's easy, what's hard? what were you thinking? what was your goal when you did X? 
+	uses same methods as needfinding
+empirical eval: quantitative, measure time to complete a task, increased sales?
+	controlled experiments; more partipants, after qualitative eval; goal: strong numeric conclusions; comparisons
+predictive eval: predicting results of user evals; systemic application of pre-established principles and heuristics, without users; faster than with users
+reliability: measure= same results for same phenomenon (2:30, 2;30, 2:30)
+validity: accurate? (actually about 1:30)
+generalizability: measure's result can predict beyond what's measured
+precision: level of detail in eval (1:31:27)
+must know at the beginning of eval: 
+	what you're evaluating, 
+	what data you're gathering, & 
+	what analysis you'll use
+eval design:
+	define the task
+	define performance measures - helps avoid confirmation bias
+	develop the experiment - reliable, valid, generalizable?
+	recruit participants
+	do the experiment
+	analyze the data
+	summarize the data
+design lifecycle:
+	needfinding, design alternatives, prototyping, evaluation
+designing a qualitative eval:
+	prior experience or live demo? (live demo = better)
+	synchronous or asynchronous? (synchronous = better)
+	one interface or multiple prototypes? (don't show old right before new)
+	think aloud protocol or post event protocol? (think aloud = biased results; mixed = better; think aloud early, post event later)
+	individuals or groups?
+capturing qualitative evals:
+	video recording
+	note taking
+	software logging
+treatment: what a participant does in an experiment, what we're investigating
+types of empirical eval: between subject design, within subjects experiment
+nominal: recommended: chi squared test (can handle more than 1 level / category); alt: Fisher's exact test, G-test
+ordinal: recommended: Kolmogorov-Smirnov test; alt: chi squared test, median test
+interval & ratio: recommended: Student's t-test; alt: MWW test, Kruskal-Wallis test
+Type I error: False positive, wrong rejection of null hypothesis
+Type II error: False negative, wrong acceptance / retention of null hypothesis
+interval & ratio with more than 1 level: recommended: Analysis of Variance (ANOVA); alt: Kruskal-Wallis test, median test
+interval & ratio with non-categorical data: recommended: linear regression; alt: logistic regression, polynomial regression, etc
+types of predictive eval: heuristic, model based, simulation based
+cognitive walkthru: imagining how a novice user will use a UI, will they cross the gulfs of execution and evaluation
+
+2.9:
+designing for change
+anticipating change
+value sensitive design
+3 goals of HCI:
+	help a user do a task
+	understand how a user does a task
+	change the way a user does a task due to some value we hold like safety or privacy
+ways that artifacts can be political:
+	inherently politcal technologies (eg nuclear / solar power)
+	technical arrangements as forms of social order (factories the replace workers and bust up a union)
+value sensitive design: vsdesign.org; privacy sensitive design; conceptual investigations; empirical investigations; technical investigations; privacy vs free speech
+society changes technology & technology changes society
+
+2.10:
+	processor model: senses, GOMS model
+	predictor model: task focused, gulfs of eval and exe, invisibility, design principles, mental models, expert blindspot, learned helplessness, cognitive task analysis, hierarchical TA
+	partipant model: task + motivations & reasons (activity theory: activity -> actions -> operators); distributed cognition; situated actions; social cognition; politics of UIs
+i am not my user
+principles are half the picture; other half: methods
+
+3.7:
+agile development:
+earlier delivery, more continuous improvement, and rapid feedback cycles
+agile AND user-centered design: iterative, use empirical info, user participation, team coherence
+diff: agile has minimal documentation, against upfront investigation
+live prototyping: ex, optimizely
+A/B testing: two alternatives with small changes on real users
+
+3.8:
+needfinding:
+	human abilities
+	task analysis
+	cognitive load
+design alterntives:
+	direct manipulation
+	mental models
+	distributed cognition
+prototyping:
+	design principles
+	representations
+	invisible interfaces
+evaluation:
+	feedback cycles
+	politics and values
+	usability heuristics
+participatory design: all stakeholders, including users, are involved as part of the design team; you are not your user, but user is one of the designers, must be weighed carefully
+action research: addresses immediate problem and researches it while simultaneously trying to solve it; done by users
+design based research: can be done outside practitioners; common in learning sciences research; designers create interventions based on current understanding of the theory and problem; results used to improve theory
+

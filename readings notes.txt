@@ -1,0 +1,524 @@
+week 1 readings:
+DesignofEverydayThings-Ch1:
+Discoverability: Is it possible to even figure out what actions are possible and where and how to perform them? 
+Understanding: What does it all mean? How is the product supposed to be used? What do all the different controls and settings mean?
+	-Industrial designers emphasize form and material
+	-Interaction designers emphasize understandability and usability
+	-Experience designers emphasize the emotional impact
+Design presents a fascinating interplay of technology and psychology
+Must design our machines on the assumption that people will make errors
+-Human-centered design (HCD): puts human needs, capabilities, and behavior first
+	-People are often unaware of their true needs, even unaware of the difficulties they are encountering. 
+	-Getting the specification of the thing to be defined is one of the most difficult parts of the design
+	-Avoid specifying the problem as long as possible but instead to iterate upon repeated approximations
+	-Rapid tests of ideas, and after each test modifying the approach and the problem definition
+Discoverability results from:
+	-affordances: relationship between the properties of an object and the capabilities of the agent that determine just how the object could possibly be used; what is it for? what can be done with it? Affordance is not a property. An affordance is a relationship. Whether an affordance exists depends upon the properties of both the object and the agent. Affordances and anti-affordances have to be discoverable. If an affordance or anti-affordance cannot be perceived, some means of signaling its presence is required->
+	-signifiers: signaling component of affordances. Affordances determine what actions are possible. Signifiers communicate where the action should take place. 
+	"If we are fortunate, thoughtful designers provide the clues for us. Otherwise, we must use our own creativity and imagination."
+	-constraints: [covered later - how things don't work? scissors held the wrong way?]
+	-mappings: relationship between the elements of two sets of things; raised hand=more => raised knob to increase volume; light switches arranged similar to placement of lights 
+	-feedback: some way of letting you know that the system is working on your request. Poor feedback can be worse than no feedback at all. Too much feedback can be more annoying than too little.
+	-conceptual model of the system: highly simplified explanation of how something works
+The Paradox of Technology: tech makes our lives better and worse
+
+Mackenzie-Ch1:
+ACM: Association for Computing Machinery
+SIGCHI: special interest group on computer-human interaction (Conference on Human Factors in Computing Systems)
+Vannevar Bush, "As we may think", Atlantic Monthly in July, 1945: expanding human experience, consequent maze to the momentarily important item
+Ivan Sutherland’s Sketchpad, 1962: the first direct manipulation interface
+Douglas Engelbart, 1963, mouse
+commercialization of the mouse did not occur until 1981, when the Xerox Star was launched
+PARC: Palo Alto Research Center
+WIMP: windows, icons, menus, and a pointing device
+VisiCalc, the first spreadsheet application, the first “killer app”
+	Birth of HCI (1983): the first ACM SIGCHI conference, the publication of Card, Moran, and Newell’s The Psychology of Human-Computer Interaction, and the arrival of the Apple Macintosh
+SIGSOC: Special Interest Group on Social and Behavioral Computing?
+UIST: ACM Symposium on User Interface Software and Technology 
+ETRA: ACM Symposium on Eye Tracking Research and Applications 
+ASSETS: ACM Conference on Computers and Accessibility 
+NordiCHI: Nordic Conference on Computer-Human Interaction
+AIP: PARC’s Applied Information-Processing Psychology Project
+MHP: model human processor
+models of interaction may be quantitative and predictive or qualitative and descriptive
+KLM: keystroke-level model
+GOMS: goals, operators, methods, and selection rules model
+Apple started popularizing GUI design but MS now has about 84% of the market
+Recognition is preferred over recall
+menu design issues: 
+	broad hierarchy (8x8) or deep hierarchy (2^6)
+	ordered alphabetically or by function
+	title on a submenu?
+	icons on labels?
+	broad versus deep menu hierarchies in different age groups
+	menus on mobile devices
+	auditory feedback
+	tilt of a mobile phone be used for menu navigation
+	pie shaped, rather than linear?
+	Can pie menus be used for text entry?
+	
+Norman-CognitiveEngineering:
+Cognitive Engineering: trying to apply what is known from science to the design and construction of machines
+goals: understand the issues, show how to make better choices when they exist, and to show what the tradeoffs are
+Task complexity: 
+	even a task that has but a single mechanism to control a single variable can be difficult to understand, to learn, and to do
+	correct conceptual model can transform confusing, difficult tasks into simple, straightforward ones
+Psychological Variables Differ From Physical Variables
+Faucet design is an example of how technology responded to provide control over psychological variables instead of physical ones
+Even Simple Tasks Involve a Large Number of Aspects
+Goals give rise to intentions to satisfy the goals
+Physical system state S has variables V and mechanisms M for control
+difference between desired goal and current state gives rise to an intention => action sequence
+each physical variable might be affected by an interaction of the control mechanisms:
+Vn = f(Ma,Mb)
+system state, S is a function of all its variables:
+S = h(Va,Vb)
+A THEORY OF ACTION
+The Gulfs of Execution and Evaluation
+user has goals in psychological terms; system has current state in physical terms
+user creates plans, action sequences, and interpretations 
+[Screen Shot 2021-06-20 at 13.18.35]
+Bridging gap from goals to physical system: 
+	1- intention formation, 
+	2- specifying the action sequence, 
+	3- executing the action, 
+	4- making contact with the input mechanisms of the interface
+some physical actions are more difficult than others => 
+	the choice of input devices can affect the selection of actions => 
+	affects how well the system matches with intentions
+[Screen Shot 2021-06-21 at 00.24.17]
+Practical Implications:
+	a critical requirement for the design of the interface: to bridge the gap between goals and system
+	only two ways to do this: move the system closer to the user; move the user closer to the system
+[Speeding thru now]
+CONCEPTUAL MODELS AND THE SYSTEM IMAGE
+ON THE QUALITY OF HUMAN-COMPUTER INTERACTION
+The Power of Tools
+The Problem With Tools
+The Gulfs of Execution and Evaluation, Revisited
+The problem of level
+DESIGN ISSUES
+What Is It We Want in Computer Design?
+	Approximate science
+	The five-slot approximate model of STM (Short-term memory)
+Tradeoffs
+	First- and second-order issues
+	Example: VISICALC
+Prescriptions for Design Principles
+	Create a science of user-centered design
+	Take interface design seriously
+	Separate the design of the interfacefrom the design of the system
+	Do user-centered system design
+=========================================================================================
+week 2 readings:
+Mackenzie-Ch4:
+What is research
+Research must be published
+Citations, references, impact
+Research must be reproducible
+Research versus engineering versus design
+What is empirical research
+Research methods
+	Observational method
+	Experimental method
+	Correlational method
+Observe and measure
+	Measurement scales:
+		(from sophisticated to crude:)
+		Ratio, 
+		Interval: strongly disagree, disagree, neutral, etc
+		Ordinal: 0, 1-5, 6-25, 26-100, 101+
+		Nominal: license plates and zip codes can't be averaged
+Research questions
+Internal validity and external validity
+Comparative evaluations
+Relationships: circumstantial and causal
+Research topics
+	Ideas
+	Finding a topic
+	Tip #1: Think small!
+	Tip #2: Replicate!
+	Tip #3: Know the literature!
+	Tip #4: Think inside the box!
+
+MullerSedleyFerrallNunge-SurveyResearchinHCI:
+Short Description of the Method
+History, Intellectual Tradition, Evolution
+What Questions the Method Can Answer
+When Surveys Are Appropriate
+When to Avoid Using a Survey
+Using Surveys with Other Methods
+How to Do It: What Constitutes Good Work
+Research Goals and Constructs
+Population and Sampling
+Probability Versus Non-probability Sampling
+Determining the Appropriate Sample Size
+Mode and Methods of Survey Invitation
+Questionnaire Design and Biases
+Types of Survey Questions
+Types of Closed-Ended Survey Questions
+Questionnaire Biases
+	Satisficing
+	Acquiescence Bias
+	Social Desirability
+	Response Order Bias
+	Question Order Bias
+Other Types of Questions to Avoid: Broad, Leading, Double-Barreled, Recall, Prediction
+Leveraging Established Questionnaires
+Visual Survey Design Considerations
+Review and Survey Pretesting
+Cognitive Pretesting
+Field Testing
+Implementation and Launch
+Piping Behavioral Data into Surveys
+Monitoring Survey Paradata
+Maximizing Response Rates
+Data Analysis and Reporting
+	Data Preparation and Cleaning
+	Analysis of Closed-Ended Responses
+	Analysis of Open-Ended Comments
+	Assessing Representativeness
+	Reporting Survey Findings
+
+=========================================================================================
+week 3 readings:
+DesignofEverydayThings-Ch2:
+How People Do Things: The Gulfs of Execution and Evaluation
+The Seven Stages of Action
+	1. Goal (form the goal)
+	2. Plan (the action)
+	3. Specify (an action sequence) 
+	4. Perform (the action sequence)
+	5. Perceive (the state of the world)
+	6. Interpret (the perception)
+	7. Compare (the outcome with the goal)
+Human Thought: Mostly Subconscious
+Human Cognition and Emotion
+	THE VISCERAL LEVEL
+	THE BEHAVIORAL LEVEL
+	THE REFLECTIVE LEVEL
+	DESIGN MUST TAKE PLACE AT ALL LEVELS
+People as Storytellers
+Blaming the Wrong Things
+LEARNED HELPLESSNESS
+POSITIVE PSYCHOLOGY
+Falsely Blaming Yourself
+HOW TECHNOLOGY CAN ACCOMMODATE HUMAN BEHAVIOR
+The Seven Stages of Action: Seven Fundamental Design Principles
+Stages:
+	1. What do I want to accomplish?
+	2. What are the alternative action sequences?
+	3. What action can I do now?
+	4. How do I do it?
+	5. What happened?
+	6. What does it mean?
+	7. Is this okay? Have I accomplished my goal?
+Principles:
+	Discoverability
+	Feedback
+	Conceptual model
+	Affordances
+	Signifiers
+	Mappings: relationship between controls and their actions
+	Constraints
+
+HutchinsHollanNorman-DirectManipulationInterfaces:
+1. DIRECT MANIPULATION
+	1.1. Early Examples of Direct Manipulation
+	1.2. The Goal: A Cognitive Account of Direct Manipulation
+2. TWO ASPECTS OF DIRECTNESS: DISTANCE AND ENGAGEMENT 
+	2.1. Distance
+	2.2. Direct Engagement
+3. TWO FORMS OF DISTANCE: SEMANTIC AND ARTICULATORY
+	3.1. Semantic Distance
+	3.2. Semantic Distance in the Gulfs of Execution and Evaluation
+		The Gulf of Execution
+		The Gulf of Evaluation
+	3.3. Reducing the Semantic Distance That Must Be Spanned
+		Higher-Level Languages
+		Make the Output Show Semantic Concepts Directly 
+		Automated Behavior Does Not Reduce Semantic Distance 
+		The User Can Adapt to the System Representation 
+		Virtuosity and Semantic Distance
+	3.4. Articulatory Distance
+	3.5. Articulatory Distance in the Gulfs of Execution and Evaluation
+4. DIRECT ENGAGEMENT
+5. A SPACE OF INTERFACES
+6. PROBLEMS WITH DIRECT MANIPULATION
+
+Mackenzie-Ch2:
+The Human Factor
+Time scale of human action
+	SOCIAL BAND
+	RATIONAL BAND
+	COGNITIVE BAND
+	BIOLOGICAL BAND
+Human factors
+Sensors
+	Vision (Sight)
+		Frequency
+		Intensity
+		Fixations and saccades
+		Scanpath
+	Hearing (Audition)
+		Loudness
+		Pitch
+		Timbre
+		Envelope
+	Touch (Tactition)
+	Smell (olfaction) & Taste (gustation)
+	Other senses
+Responders
+	Limbs
+	Voice
+	Eyes
+The brain
+	Perception
+	Cognition
+	Memory
+Language
+	Redundancy in language
+	Entropy in language
+Human performance
+	Reaction time
+	Visual search
+	Skilled behavior
+	Attention
+	Human error
+	
+=========================================================================================
+week 4 readings:
+FasteRachmelEssarySheehan-BrainstormChainstormCheatstormTweetstorm:
+New Ideation Strategies for Distributed HCI Design
+Brainstorming Effectiveness as an Ideation Technique
+	Criticism is ruled out
+	“Free-wheeling” is welcomed
+	Quantity is wanted
+	Combination and improvement are sought
+Limitations of Brainstorming
+	Production blocking
+	Evaluation apprehension
+	Free riding
+Structuring Ideation: Three Approaches Defined
+	face-to-face brainstorming
+	individual (or “nominal”) idea generation sessions
+	computer-mediated ideation
+METHODOLOGY AND DESIGN RESEARCH
+Opportunity finding
+Electronic Brainstorming
+Concept Selection and Refinement
+Experimentation: Cheatstorming (Study 1... & 2)
+DISCUSSION
+Findings: Process
+Findings: Results
+CONCLUSIONS AND FUTURE WORK: CHAINSTORMING, TWEETSTORMING, AND CHEATSTORMING AT SCALE
+
+RogersSharpPreece-TheProcessofInteractionDesign:
+[Password protected -WTF?]
+What is interaction design about?
+	Four basic activities of interaction design
+	Three key characteristics of the interaction design process
+Some practical issues
+	Who are the users
+	What do we mean by needs
+	How do you generate alternative designs
+	How do you choose among alternative designs
+Lifecycle models: showing how the activities are related
+	A simple lifecycle model for interaction design
+	Lifecycle models in software engineering
+	Lifecycle model in HCI
+
+Yang-ObservationsonConceptGeneration:
+Hypothesis 1 The quantity of concepts generated at the beginning of a design project correlates with design outcome.
+Hypothesis 2 The quantity of sketches generated during a project correlates with its design outcome.
+Hypothesis 3 Increased sketching at the beginning of the project, rather than at the end, correlates with better design outcome.
+Measures of creativity
+Types of sketches
+Methods
+	3.1 Test bed
+	3.2 Design data
+		3.2.1 Brainstorming and morphology charts
+		3.2.2 Sketching and logbooks
+	3.3 Design outcome evaluation
+4 Results and discussion
+	4.1 Type of sketching
+	4.2 Concept quantity and design outcome
+	4.3 Sketch quantity and design outcome
+	4.4 Sketching over time and design outcome
+5 Conclusions
+	5.1 Concept generation and sketching
+	5.2 Design outcome
+	5.3 Sketching and prototyping
+	5.4 Limitations
+6 Future work
+=========================================================================================
+week 5 readings:
+DesignofEverydayThings-Ch5:
+HUMAN ERROR? NO, BAD DESIGN
+Understanding Why There Is Error
+ROOT CAUSE ANALYSIS
+THE FIVE WHYS
+Deliberate Violations
+Two Types of Errors: Slips and Mistakes
+DEFINITIONS: ERRORS, SLIPS, AND MISTAKES
+	error: any deviance from “appropriate” behavior: slips and mistakes
+	SLIPS
+	MISTAKES
+	ERROR AND THE SEVEN STAGES OF ACTION
+The Classification of Slips
+	CAPTURE SLIPS
+	DESCRIPTION-SIMILARITY SLIPS
+	MEMORY-LAPSE SLIPS
+	MODE-ERROR SLIPS
+The Classification of Mistakes
+	RULE-BASED MISTAKES
+	KNOWLEDGE-BASED MISTAKES
+	MEMORY-LAPSE MISTAKES
+Social and Institutional Pressures
+	CHECKLISTS
+Reporting Error
+	CASE STUDY: JIDOKA—HOW TOYOTA HANDLES ERROR: automation with a human touch
+	POKA-YOKE: ERROR PROOFING
+	NASA’S AVIATION SAFETY REPORTING SYSTEM
+Detecting Error
+	EXPLAINING AWAY MISTAKES
+	THE CASE OF THE WRONG TURN ON A HIGHWAY
+	IN HINDSIGHT, EVENTS SEEM LOGICAL
+Designing for Error
+	DESIGN LESSONS FROM THE STUDY OF ERRORS
+	ADDING CONSTRAINTS TO BLOCK ERRORS
+	UNDO
+	CONFIRMATION AND ERROR MESSAGES
+		Make the item being acted upon more prominent
+		Make the operation reversible
+	SENSIBILITY CHECKS
+	MINIMIZING SLIPS
+	THE SWISS CHEESE MODEL OF HOW ERRORS LEAD TO ACCIDENTS
+		• Add more slices of cheese.
+		• Reduce the number of holes (or make the existing holes smaller). 
+		• Alert the human operators when several holes have lined up.
+When Good Design Isn’t Enough
+	WHEN PEOPLE REALLY ARE AT FAULT
+Resilience Engineering
+The Paradox of Automation
+Design Principles for Dealing with Error
+
+Mackenzie-Ch3.4:
+Mental models and metaphor
+
+Mackenzie-Ch3.8:
+Interaction errors
+
+ManderSalomonWong-APileMetaphor:
+A ‘Pile’ Metaphor for Supporting Casual Organization of Information
+information visualization, information organization, end-user programming
+USER INTERVIEWS
+Method
+Findings
+Uses for folders
+Piles: A less rigid categorization system
+Piles: self-revealing, browseable
+Assistance with information management
+FROM OBSERVATION TO DESIGN SKETCH
+User-created piles
+System-created piles
+Support for browsing
+Scripting a pile
+Browsing by spreading out a pile
+Browsing while maintaining the pile's structure
+Visualizing a pile’s contents
+Managing piles
+TESTING USER’S EXPECTATIONS OF PILES
+Piling models
+Initiating browsing
+Viewing cone representations
+Finding items within a pile
+FUTURE WORK: FROM DESIGN SKETCH TO IMPLEMENTATION
+Improving Designs and Working with Familiar Data
+Browsing by Other Criteria
+Technology to Support Pile Interactions
+=========================================================================================
+week 6 readings:
+BeaudouinLafonMackay-PrototypingToolsandTechniques:
+
+
+EiselmayerWacharamanothamBeaudouinLafonMackay-Touchstone2:
+
+
+HoudeHill-WhatDoPrototypesPrototype:
+
+
+MeklerHornbaek-AFrameworkfortheExperience:
+
+=========================================================================================
+week 7 readings:
+BadilloUrquiolaPageWisniewski-RiskvsRestriction:
+
+
+DillahuntSimioniXu-OnlineGroceryDeliveryServices:
+
+
+Hutchins-HowaCockpitRemembersItsSpeeds:
+
+
+Nardi-StudyingContext:
+
+
+Sambasivanetal-TheyDontLeaveUs:
+
+=========================================================================================
+week 8 readings:
+AssalChiasson-ThinkSecurefromtheBeginning:
+
+
+HinikerFroehlichZhangBeneteau-AnchoredAudioSampling:
+
+
+Mackenzie-Ch5:
+
+
+NielsenMolich-HeuristicEvaluationofUserInterfaces:
+
+=========================================================================================
+week 9 readings:
+Cowan-IndustrialRevolutionintheHome:
+
+
+FriedmanKahnBorningHuldtgren-ValueSensitiveDesign:
+
+
+HuChancellorChoudhury-CharacterizingHomelessness:
+
+
+KiddEtAl-TheAwareHome:
+
+
+KozubaevRochaixDiSalvoLeDantec-SpacesandTraces:
+
+
+LiuNersessianStasko-DistributedCognitionInfoVis:
+
+
+Winner-DoArtifactsHavePolitics:
+
+=========================================================================================
+week 10 readings:
+ChamberlainSharpMaiden-TowardsaFramework:
+
+
+DeebSwihartEndertBruckman-UnderstandingLawEnforcement:
+
+
+Joyner-TheCHIofTeachingOnline-Final:
+
+
+PolsonLewisRiemanWharton-CognitiveWalkthroughs:
+
+
+Shahmirietal-Serpentine:
+
+
+WaniaAtwoodMcCain-HowDoDesignAndEvaluationInterrelate:
+
+
+WongVillacresKumarDiSalvo-TheParentingActorNetwork:

@@ -1,0 +1,13 @@
+Question 1 
+
+
+
+Viewing myself, the user, as a sensory processor that takes in input and spits out output, this simple interface doesn't do much to take into account how much better an interface is when it reduces the number of clicks a user has to make to accomplish a task. 
+
+
+###
+The methodology was empirical and the write-up included most of what is expected today in a user study destined for presentation at a conference and publication in a conference proceedings. For example, the write- up contained a detailed description of the participants, the apparatus, and the proce- dure. The study could be reproduced if other researchers wished to verify or refute the findings.
+###
+
+
+Canvas:

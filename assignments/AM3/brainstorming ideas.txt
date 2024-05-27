@@ -1,0 +1,39 @@
+tab order
+rearrange time elements
+dive computer interface
+make fields appropriate for the environment- e.g., no EGS on SCUBA
+paper printouts
+have divers do their own tending
+improve the user: dive tending classes / competitions
+offline access
+login timeout extend to 1 hr
+larger font and input fields
+light / dark theme
+wristwatch device for clocking in and out, like staff have for the building
+info link for each exhibit or area
+voice input
+mnemonics for remembering anything that's hard to remember
+ability to cancel a dive if started by accident
+tablet writing input
+when diver is selected from search, don't require Add Diver button to be pressed
+ability to duplicate from previous dive
+“hookah style” dives
+ability to search previous dives
+checklist for tender
+list and approximate count of animals in each dive site
+UI design voting
+stickers and other nifty useless UI decorations
+issues listing
+incentivize tending, e.g., free food
+allow headphones
+improved field names for surface supply dives- tag numbers on umbilicals, umbilical lengths
+place to input description of tasks tender did while divers were in water
+tenders get priority of wanted dives like shark or night dives
+add sounds effects
+list of nearby safety equipment
+allow customization
+record of who and when tended there last
+add localization
+dive tending UI design workshop - open the source to divers
+wall mounted inputs
+

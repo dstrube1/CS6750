@@ -1,0 +1,17 @@
+Project: GitHub Desktop application for Mac
+1- Want to be able to add previous Summary messages option
+2- remove whitespace indicator bar
+3- remove Add Coauthors
+4- if binary file has changed via deletion, don't show button to view it
+5- different types of accounts? https://docs.github.com/en/github/managing-large-files/versioning-large-files
+6- does not refresh on logout / login
+7- 
+
+Redesigns:
+1- No local changes without confusing image
+2- If can't commit, make the commit button disabled
+3- allow previous commit messages
+4- allow option to remove coauthor
+5- if file too large, don't allow
+6- when login changes, update
+
